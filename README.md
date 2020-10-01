@@ -1,4 +1,4 @@
-# Multichain Install steps
+# Multichain Install steps :
 
 ```
 su (enter root password)
@@ -14,7 +14,7 @@ exit (to return to your regular user)
 Connect to the foodchain blockchain by running 'multichaind food@192.168.0.234:7363' to get a public key. Ask the admin/regulator to grant access to you, and then you are free to mine.
 
 
-# Front End
+# Front End :
 ```
 npm install
 ```
@@ -24,7 +24,7 @@ bower install
 
 Start the server by running `gulp serve`
 
-# Back End
+# Back End :
 Install libraries in `requirements.txt` using `pip`.
 
 Start the server by running `python manage.py runserver`
